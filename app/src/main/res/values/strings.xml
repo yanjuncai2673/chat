@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">talk</string>
+    <string name="home">首页</string>
+    <string name="dynamic">动态</string>
+    <string name="mine">我的</string>
+    <string name="privateinfo">个人信息</string>
+    <string name="exitslogin">退出登录</string>
+    <string name="headimg">头像</string>
+
+    <string-array name="smile_tab">
+        <item>[爱你]</item>
+        <item>[icon2]</item>
+    </string-array>
+    <!--默认的表情对应的文字-->
+    <string-array name="default_smiley_texts">
+        <item>[爱你]</item>
+        <item>[机器人]</item>
+        <item>[拜拜]</item>
+        <item>[抱抱]</item>
+        <item>[悲剧]</item>
+        <item>[悲伤]</item>
+        <item>[便便]</item>
+        <item>[鄙视]</item>
+        <item>[闭嘴]</item>
+        <item>[不要]</item>
+        <item>[馋嘴]</item>
+    </string-array>
+    <!--表情文字对应的图片-->
+    <string-array name="default_smiley_icon">
+        <item>[icon2]</item>
+        <item>[icon7]</item>
+        <item>[icon10]</item>
+        <item>[icon12]</item>
+        <item>[icon13]</item>
+        <item>[icon18]</item>
+        <item>[icon19]</item>
+        <item>[icon20]</item>
+        <item>[icon21]</item>
+        <item>[icon22]</item>
+        <item>[icon24]</item>
+        <item>[icon27]</item>
+        <item>[icon29]</item>
+        <item>[icon30]</item>
+        <item>[icon35]</item>
+        <item>[icon40]</item>
+    </string-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.mine.UserDetailInfoActivity">
+    <!--带返回的标题条目-->
+    <include layout="@layout/layout_title_back"/>
+    <!--宽间隔线-->
+    <include layout="@layout/layout_septal_height"/>
+    <!--头像条目-->
+    <include android:id="@+id/item_head" layout="@layout/layout_txt_img_head"/>
+    <!--细间隔线-->
+    <include layout="@layout/layout_septal_minline"/>
+    <!--昵称条目-->
+    <include android:id="@+id/item_name" layout="@layout/layout_txt_txt"/>
+    <!--细间隔线-->
+    <include layout="@layout/layout_septal_minline"/>
+    <!--性别条目-->
+    <include  android:id="@+id/item_sex" layout="@layout/layout_txt_txt"/>
+    <!--细间隔线-->
+    <include layout="@layout/layout_septal_minline"/>
+    <!--年龄条目-->
+    <include android:id="@+id/item_age" layout="@layout/layout_txt_txt"/>
+    <!--细间隔线-->
+    <include layout="@layout/layout_septal_minline"/>
+    <!--签名条目-->
+    <include android:id="@+id/item_sign" layout="@layout/layout_txt_txt"/>
+    <!--细间隔线-->
+    <include layout="@layout/layout_septal_minline"/>
+    <!--等级条目-->
+    <include android:id="@+id/item_leave" layout="@layout/layout_txt_txt"/>
+    <!--宽间隔 线-->
+    <include layout="@layout/layout_septal_height"/>
+</LinearLayout>
